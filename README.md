@@ -1,4 +1,3 @@
-![portfolio](https://github.com/satyarthratnani/Portfolio/assets/84660631/b9786fab-15eb-4251-bc87-8f9247ba991c)
 *Portfolio Website
 
 
