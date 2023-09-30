@@ -8,11 +8,12 @@ This is a simple portfolio website created by Satyarth Ratnani to showcase perso
 
 <b>*Table of Contents</b>
 
-
+<ol>
 ->Description
 ->Screenshots
 ->Features
-->Technologies Used
+->Technologies Used  
+</ol>
 
 
 <b>*Description</b>
