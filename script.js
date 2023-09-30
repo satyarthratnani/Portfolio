@@ -13,6 +13,3 @@ if(close) {
       nav.classList.remove('active');
     })
 };
-
-// -----------Google form--------------
-
