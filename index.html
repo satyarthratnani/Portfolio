@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="./Images/SRlogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="header">
+        <a href="#"><img src="./Images/loogoo.png" alt="logo" class="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="#main">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="https://drive.google.com/file/d/1Q2n0oDyRZO46f04yGeaROLrAnNCOCyb4/view?usp=sharing" target="_blank">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class='bx bx-x' id="close"></i>
+            </ul>
+            <i class='bx bx-menu' id="bar"></i>
+        </div>
+    </div>
+
+    <div id="main">
+        <h1>Hi There,<br>I'm <span>Satyarth Ratnani</span></h1>
+        <h2>From Navsari, Gujarat<br>India</h2>
+        <div class="social-icons bg-icons">
+            <a href="mailto:satyarthratnani@gmail.com" target="_blank"><i class='bx bxs-envelope'></i></a>
+            <a href="https://www.linkedin.com/in/satyarth-ratnani-314746170/" target="_blank"><i class='bx bxl-linkedin-square' ></i></i></a>
+            <a href="https://github.com/satyarthratnani" target="_blank"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.instagram.com/satyarthratnani/?hl=en" target="_blank"><i class='bx bxl-instagram-alt' ></i></i></a>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./Images/profile.png" alt="profile">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I'm Satyarth Sureshchandra Ratnani, M.Tech Student of CSE-IS(2023 - 25) at NITK, Surathkal. I am passionate about learning new technologies,
+                        exploring innovative ideas and contributing to the growth of the industry and leverage my knowledge to
+                        create solutions that can address real-world problems.
+                        </p><br><br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+                        <p class="tab-links" onclick="opentab('education')"> Education</p>
+                        <p class="tab-links" onclick="opentab('languages')"> Languages</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Technologies</span><br>HTML, CSS, Bootstrap, NodeJS, PHP, Python, C++</li>
+                            <li><span>Database</span><br>MySQL, Django</li>
+                            <li><span>Software and Tools</span><br>Visual Studio Code, Texmaker, Pycharm, Linux</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Master of Technology - MTech in Computer Science and Engineering - Information Security 2023-2025</span><br>National Institute of Technology Karnataka, surathkal, India</li>
+                            <li><span>Bachelor of Technology - BTech in Information Technology 2018-2022</span><br>Birla Vishvakarma Mahavidyalaya College, Anand, Gujarat, India</li>
+                            <li><span>Higher Secondary School - 2016-2018</span><br>A B Higher Secondary School, Navsari, Gujarat, India</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="languages">
+                        <ul>
+                            <li><span>English</span><br></i></span>Professional working proficiency</li>
+                            <li><span>Hindi</span><br></i></span>Native or bilingual proficiency</li>
+                            <li><span>Gujarati</span><br></i></span>Native or bilingual proficiency</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./Images/facemask.png" alt="work">
+                    <div class="layer">
+                        <h3>Face mask detection</h3>
+                        <p>Face Mask Detector is the solution to check whether people are wearing masks correctly or not, in percentage.
+                            </p>
+                        <a href="https://github.com/satyarthratnani/Facemaskdetection"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Images/foodrecipe.png" alt="work">
+                    <div class="layer">
+                        <h3>Food Recipe Generator System</h3>
+                        <p> We introduce an inverse cooking system that recreates cooking recipes from given food images. The system detects the food
+                            item from image and show its recipe and it also provides recipe by search option, with an attractive website
+                            interface.
+                            </p>
+                        <a href="https://github.com/satyarthratnani/G9FoodRecipeGeneratorProject"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/satyarthratnani" class="btn">See More</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <a href="mailto:satyarthratnani@gmail.com"><i class='bx bxs-paper-plane'></i> satyarthratnani@gmail.com</a>
+                    <p><i class='bx bxs-phone-call' ></i> +91 9714250351</p>
+                    <div class="social-icons">
+                        <a href="mailto:satyarthratnani@gmail.com" target="_blank"><i class='bx bxs-envelope'></i></a>
+                        <a href="https://www.linkedin.com/in/satyarth-ratnani-314746170/" target="_blank"><i class='bx bxl-linkedin-square' ></i></i></a>
+                        <a href="https://github.com/satyarthratnani" target="_blank"><i class='bx bxl-github' ></i></a>
+                        <a href="https://www.instagram.com/satyarthratnani/?hl=en" target="_blank"><i class='bx bxl-instagram-alt' ></i></i></a>
+                    </div>
+                    <a href="./Images/CV_Satyarth.pdf" download class="btn btn2">Download CV</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023 by Satyarth Ratnani.</p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
