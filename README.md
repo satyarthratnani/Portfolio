@@ -9,10 +9,10 @@ This is a simple portfolio website created by Satyarth Ratnani to showcase perso
 <b>*Table of Contents</b>
 
 <ol>
-->Description
-->Screenshots
-->Features
-->Technologies Used  
+<li>Description</li>
+<li>Screenshots</li>
+<li>Features</li>
+<li>Technologies Used</li>  
 </ol>
 
 
